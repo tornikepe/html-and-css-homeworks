@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-homework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <h4>Sign in</h4>
+        <hr>
+    
+        <form action="" method="POST">
+            <div class="fullname-email">
+                <div class="regform">
+                    <label for="full-name">Full Name:</label>
+                    <br>
+                    <input type="text" name="FullName" id="full-name" placeholder="Enter full name" required>
+                </div>
+                
+                <div  class="regform">
+                    <label for="email-address">Email address:</label>
+                    <br>
+                    <input type="email" name="EmailAddress" id="email-address" placeholder="Enter email" required>
+                </div>
+            </div>
+            
+
+                
+            <br>
+            <div class="regform">
+                <label >
+                    Communication:
+                    <br>
+                    <input type="checkbox"> Email
+                    <br>
+                    <input type="checkbox"> SMS
+                    <br>
+                    <input type="checkbox" checked> Phone
+                    <br>
+                    </label>
+            </div>
+            <br>
+            
+            <p>User Group: </p>
+    
+            <div class="regform">
+                <input type="radio" id="sales-person" name="comm" value="sales-person" checked>
+                <label for="sales-person">Sales person</label>
+    
+                <input type="radio" id="customer" name="comm" value="customer">
+                <label for="customer">Customer</label>
+                <br>
+                <small>Please select user group</small>
+
+            </div>
+
+
+            <span id="hr2"><hr></span>
+
+            <br>
+
+            <button id="submit" type="submit">Submit</button>
+            <button id="cancel" type="reset">Cancel</button>
+
+        </form>
+    
+    
+    
+
+
+    
+    </main>
+    
+</body>
+</html>
