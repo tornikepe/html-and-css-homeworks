@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <form class="form" action="https://google.com" target="_blank">
+            <div class="items">
+                <label for="phone"> <span class="asterics">* </span>Phone: </label>
+                <input type="number" id="phone" name="Phone" required>
+            </div>
+
+            <br>
+
+            <div class="items">
+                <label for="e-mail"> <span class="asterics">* </span>E-mail: </label>
+                <input type="email" id="e-mail" name="Email" size="32" minlength="3" maxlength="64" required>
+            </div>
+
+            <br>
+
+            <div class="items">
+                <label for="password"> <span class="asterics">* </span>Password: </label>
+                <input type="password" id="password" name="Password" required>
+            </div>
+
+            <br>
+
+            <div class="items">
+                <label for="confirm-password"> <span class="asterics">* </span>Confirm Password: </label>
+                <input type="password" id="confirm-password" name="ConfirmPassword" required>
+            </div>
+
+            <br>
+
+            <div class="items">
+                <label for="nickname"> <span class="asterics">* </span>Nickname: </label>
+                <input type="text" id="nickname" name="Nickname" required>
+            </div>
+
+            <br>
+            
+            <div class="items">
+
+                <label for="habitual-residence"> <span class="asterics2">* </span> <span id="residence">Habitual Residence:</span></label>
+                <select name="HabitualResidence" id="habitual-residence" required>
+                    <option value="" disabled selected hidden>Zheijiang / Hangzhou / West Lake</option>
+                    <option value="1">Zheijiang</option>
+                    <option value="2">Hangzhou</option>
+                    <option value="3">West Lake</option>
+                </select>
+            </div>
+
+            <br>
+            
+            <div class="items">
+                <label for="website"> <span class="asterics">* </span>Website: </label>
+                <input type="text" id="website" name="Website" placeholder="website" required>
+    
+            </div>
+ 
+            <br>
+
+            <div class="agreement">
+                <input type="checkbox" id="agreement" name="Agremeent" required>
+                <label for="agreement">I have read the <span id="button">agreement</span></label>
+            </div>
+            
+            <br>
+            <div>
+                <label for="submit"></label>
+                <button type="submit" id="submit">Register</button>
+            </div>
+            </form>   
+            
+            <br>
+
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+#submit{
+    position: relative;
+    color: white;
+    background-color: rgb(75, 75, 185);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    right: 100px;
+}
+
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+input{
+    position: relative;
+    width: 300px;
+    height: 20px;
+    margin: 20px;
+    opacity: 0.5;
+    right: 50px;
+}
+
+label {
+    position: relative;
+    margin-right: 2px;
+    display: inline-block;
+    width: 210px;
+    padding: 5px;
+}
+
+div #habitual-residence{
+    width: 310px;
+    height: 30px;
+    opacity: 0.5;
+}
+.asterics{
+    color: red;
+}
+
+#agreement{
+    position: relative;
+    left: 150px;
+    margin-left: 1px;
+}
+.agreement{
+    position: relative;
+    right: 60px;
+}
+#button{
+    color: rgb(75, 75, 185);
+}
+#habitual-residence{
+    position: relative;
+    right: 50px;
+}
+#residence{
+    position:relative;
+    right:10px
+}
+.asterics2{
+    position:relative;
+    right: 10px;
+    color: red;
+}
+.items2{
+    position: relative;
+    left: 200px;
+}
