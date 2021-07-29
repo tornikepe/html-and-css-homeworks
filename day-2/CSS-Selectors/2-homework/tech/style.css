@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    font-family: 'Abel', sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/2454628.png");
+}
+h1, h4{
+    color: lime;
+    font-size: 70px;
+}
+a{
+    font-size: 50px;
+    color: rgb(197, 61, 61);
+}

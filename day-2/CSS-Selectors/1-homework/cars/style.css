@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+body{
+    background-image: url("https://wallpaperaccess.com/full/40047.jpg");
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+header{
+    color:darkcyan;
+}
+li{
+    margin-left:300px;
+    color:tomato;
+    font-size: 80px;
+}
+img{
+    margin-right: 320px;
+    border-radius:20px;
+}
+a{
+    color:greenyellow
+}
