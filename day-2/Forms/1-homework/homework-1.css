@@ -9,6 +9,7 @@
     width: 100px;
     height: 30px;
     right: 100px;
+    margin-right: 110px;
 }
 
 body{
@@ -50,6 +51,7 @@ div #habitual-residence{
 .agreement{
     position: relative;
     right: 60px;
+    margin-right: 96px;
 }
 #button{
     color: rgb(75, 75, 185);
