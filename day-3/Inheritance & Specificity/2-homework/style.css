@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#primary{
+    background-color:hsl(236, 57%, 58%) ;
+    font-size: 20px;
+    border-style: hidden;
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+}
+#default{
+    display: inline;
+    font-size: 20px;
+    color: black;
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+}
+#dashed{
+    border-style: dashed;
+    font-size: 20px;
+    color: black;
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+}
+#danger{
+    background-color: rgb(227, 232, 232);
+    font-size: 20px;
+    color: red;
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+}
+/*                     2-homework                  */
+#primary.ghost{
+    background-color: Transparent;
+}
+#default.small{
+    width: 100px;
+    height: 23px;
+}
+#dashed.large{
+    width: 120px;
+    height: 150px;
+}
