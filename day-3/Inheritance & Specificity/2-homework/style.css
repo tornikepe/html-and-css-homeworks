@@ -47,11 +47,13 @@ body {
 /*                     2-homework                  */
 
 .small {
+    font-size: 14px;
     width: 100px;
     height: 23px;
 }
 
 .large {
+    font-size: 40px;
     width: 150px;
     height: 150px;
 }
