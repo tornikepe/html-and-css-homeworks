@@ -17,14 +17,15 @@
 
         }
 
-        .header #he {
+        .header span {
+            z-index: 1;
             width: 180px;
             margin: 0;
             color: white;
             font-size: 90px;
             position: absolute;
-            top: 20%;
-            left: 12%;
+            top: 50%;
+            right: 52%;
             transform: translate(-50%, -50%);
             border: 1px solid white;
             background-color: white;
@@ -33,7 +34,8 @@
 
         }
 
-        .header #ader {
+        .header {
+            z-index: 1;
             margin: 0;
             color: white;
             font-size: 90px;
@@ -44,6 +46,7 @@
         }
 
         .lorem {
+            z-index: 1;
             margin: 0;
             color: white;
             font-size: 40px;
@@ -56,6 +59,7 @@
         }
 
         img {
+            position: absolute;
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -113,16 +117,9 @@
 
 <body>
     <section id="content">
-
-
-        <div class="header">
-            <h1 id="he">He</h1>
-        </div>
-        <div class="header">
-            <h1 id="ader">ader</h1>
-        </div>
-
-
+        <h1 class="header">
+            <span>He</span>ader
+        </h1>
         <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
         <img src="https://images.ctfassets.net/3mv54pzvptwz/2V1OabEsb1HG5kixIVUW2j/105f5ff1e16c7a503ca31c9a0ab5e648/undefined"
