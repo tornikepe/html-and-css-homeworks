@@ -7,24 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .col1,
-        .col2,
-        .col3,
-        .col4,
-        .col5,
-        .col6,
-        .col7,
-        .col8,
-        .col9,
-        .col10,
-        .col11,
-        .col12,
-        .col13,
-        .col14,
-        .col15,
-        .col16,
-        .col17,
-        .col18 {
+        div {
             background-color: gray;
         }
 
@@ -32,6 +15,7 @@
             width: 920px;
             display: grid;
             gap: 10px;
+            grid-template-rows: 150px 100px 200px 200px 200px;
         }
 
         .grid-container1 {
@@ -49,40 +33,37 @@
         }
 
         .grid-container3 {
-            height: 100px;
             display: grid;
             gap: 20px;
             grid-template-columns: 700px 220px;
-            grid-template-rows: 100px 100px;
+            grid-template-rows: 200px;
         }
 
         .grid-container4 {
-            height: 150px;
             display: grid;
             gap: 20px;
             grid-template-columns: 220px 700px;
-            grid-template-rows: 150px 150px;
+            grid-template-rows: 200px;
         }
 
         .grid-container5 {
-            height: 150px;
             display: grid;
             gap: 20px;
             grid-template-columns: 460px 460px;
-            grid-template-rows: 150px 150px;
+            grid-template-rows: 200px;
         }
     </style>
 </head>
 
 <body>
-    <div class="main">
-        <div class="grid-container1">
+    <section class="main">
+        <section class="grid-container1">
             <div class="col1"></div>
             <div class="col2"></div>
             <div class="col3"></div>
             <div class="col4"></div>
-        </div>
-        <div class="grid-container2">
+        </section>
+        <section class="grid-container2">
             <div class="col5"></div>
             <div class="col6"></div>
             <div class="col7"></div>
@@ -91,20 +72,20 @@
             <div class="col10"></div>
             <div class="col11"></div>
             <div class="col12"></div>
-        </div>
-        <div class="grid-container3">
+        </section>
+        <section class="grid-container3">
             <div class="col13"></div>
             <div class="col14"></div>
-        </div>
-        <div class="grid-container4">
+        </section>
+        <section class="grid-container4">
             <div class="col15"></div>
             <div class="col16"></div>
-        </div>
-        <div class="grid-container5">
+        </section>
+        <section class="grid-container5">
             <div class="col17"></div>
             <div class="col18"></div>
-        </div>
-    </div>
+        </section>
+    </section>
 
 </body>
 
